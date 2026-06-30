@@ -1,16 +1,10 @@
-# React + Vite
+# ✨ DermaIQ
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+DermaIQ is a simple, easy-to-use skincare screening website built with React. It allows you to upload a clear photo of a skin concern and instantly gives you gentle skincare routines and holistic wellness tips (like hydration and sleep advice) instead of confusing medical terms. 
 
-Currently, two official plugins are available:
+### 🧠 Powered by Hugging Face
+This app connects directly to **Hugging Face**—which is essentially like an open-source "App Store" for Artificial Intelligence. Just like you download apps on your phone, developers use Hugging Face to access ready-made AI and machine learning models. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+By using their free system, DermaIQ sends the uploaded photo securely to a smart image-recognition model, gets the results instantly, and translates them into everyday friendly tips for your daily skincare routine.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+*Disclaimer: This app is a fun, educational project for lifestyle tracking and does not replace regular doctor or dermatologist advice!*
